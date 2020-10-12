@@ -1,0 +1,229 @@
+.App {
+  text-align: center;
+  overflow-x: hidden;
+  background: #2f5d50
+}
+.App-header h1 { 
+  position: absolute; 
+  font-family: 'Open Sans', sans-serif;
+  font-weight: light;
+  color: #2f5d50;
+  font-size: calc(10px + 13vmin);
+  top: 12%; 
+  left: 3%; 
+
+}
+.sticky-wrapper {
+  position: absolute;
+  top: 23%; 
+  left: 5%; 
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  color: #2f5d50;
+  font-size: calc(10px + 3vmin);
+}
+.sticky .sticky-inner {
+  position: fixed;
+  background-color: rgba(195, 225, 216, 0.7);
+  font-size: calc(10px + 2vmin);
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  margin-top: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+.App-header h2 a{ 
+  color: #2f5d50;
+  text-decoration: underline;
+} 
+.App-header h2 a:visited{
+  color: #468874;
+}
+.App-header h2 a:hover{
+  color: #5fb69c;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  background-color: rbga(114, 220, 189, 0.7);
+  border-radius: 8px;
+}
+
+.App-header {
+  background-color: #2f5d50;
+  min-height: 50vh;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.custom-icon {
+  font-size: calc(10px + .9vmin);
+  color: #c3e1d8;
+  transition: 0.3s;
+}
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: light;
+  color: #c3e1d8;
+  font-size: calc(10px + 4vmin);
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+  align-items: left;
+  justify-content: left;
+  margin-left: 4%;
+
+}
+.about{
+  margin-left: 8%;
+  font-size: calc(10px + 1.2vmin)
+}
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  color: #c3e1d8;
+  font-size: calc(10px + 3vmin);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+hr{
+  border: 1px solid #1b322c;
+}
+.image{
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+
+}
+.featured{
+  background-color: #497f73;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #c3e1d8;
+}
+.featured1{
+  background-color: #2f5d50;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #c3e1d8;
+}
+.featured2{
+  background-color: #497f73;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #c3e1d8;
+}
+.feat-content{
+  margin-right: .5rem;
+  margin-left: .5rem;
+  font-size: calc(10px + 1.2vmin);
+}
+.button{
+  background-color: #2f5d50;
+  border-radius: 4px;
+  border: 1px solid #5fb69c;
+  height: calc(10px + 5vmin);
+  width: calc(10px + 17vmin);
+  font-size: calc(10px + 1.3vmin);
+  color: #c3e1d8;
+  outline: none;
+  font-weight: light;
+  padding: 6px;
+  text-decoration: none;
+}
+.cap1{
+  font-size: calc(10px + 1vmin);
+}
+.button:hover{
+  background-color: #468874;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  outline: none;
+}
+footer{
+  background-color: #1b322c;
+  padding-top: .5em;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + .6vmin);
+  color: #c3e1d8;
+  }
+
+footer img{
+  width: 3em;
+  height: auto;
+}
+.button2{
+  background-color: #2f5d50;
+  border-radius: 4px;
+  border: 1px solid #5fb69c;
+  padding: .2em;
+  font-size: calc(10px + 3.3vmin);
+  color: #c3e1d8;
+  outline: none;
+  font-weight: light;
+  text-decoration: none;
+}
+.cap{
+  font-size: calc(10px + 2.3vmin);
+  font-weight: light;
+}
+.big-cap{
+  font-weight: light;
+}
+.credit{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    color: #c3e1d8;
+  }
+  .credit:hover{
+    color: #5fb69c;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+.button2:hover{
+  background-color: #468874;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  outline: none;
+}
+@media screen and (min-width: 450px) {
+  .App-header h1 { 
+    top: 10%; 
+  }
+  .App-header h2{ 
+    top: 24%; 
+  }
+}
+
+@media screen and (max-width: 1100px) and (min-width:251px){
+  .App-header h1 { 
+    top: 5%; 
+  }
+  .App-header h2{ 
+    top: 22%; 
+  }}
+  @media screen and (max-width: 1140px) and (min-width:601) {
+
+    h4 {
+  margin-top: .3em;
+    }
+    }
+@media screen and (min-width: 1200px){
+  .App-header img{
+    width: 100%;
+    height: auto
+  }}
+
+@media screen and (min-width: 750px) {
+  .App-header h1 { 
+    top: 2%; 
+  }
+  .App-header h2{ 
+    top: 21%; 
+  }
+}
